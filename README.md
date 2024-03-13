@@ -1,6 +1,6 @@
 # ml-7072cem
 
-Sina Ebrahimi assignments in **7072CEM** (Machine Learning) module for JanMay 2324 semester, Coventry University.
+Sina Ebrahimi's final project in **7072CEM** (Machine Learning) module for JanMay 2324 semester, Coventry University.
 
 **Project Title:**
 
@@ -29,7 +29,8 @@ Sina Ebrahimi assignments in **7072CEM** (Machine Learning) module for JanMay 23
 
 *The target variable (y) is as follows:*
 
-**Slice type **- network configuration that allows multiple networks (virtualized and independent) (1: eMBB, 2: URLLC, 3: mMTC)
+**Slice type ** - network configuration that allows multiple networks (virtualized and independent) *(1: eMBB, 2: URLLC, 3: mMTC)*
+
 
 
 The objective is to predict the slice type of the user (in the test set) based on the different characteristics outlined in the features. This can yield various advantages. For instance, this data can be utilized in the resource allocation mechanisms of 5G. By categorizing the user's slice type based on these characteristics, the algorithm will perform slice-aware resource allocation in the Radio Access Network (RAN) and/or Core Network (CN) for each user according to their slice type. Put simply, this exemplar algorithm depends on the slice type to determine the allocation of resources to the user.
